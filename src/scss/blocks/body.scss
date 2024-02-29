@@ -1,8 +1,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+:root{
+	--bg-color: #1a1818;
+	--text-color: #ece7e1;
+}
+
 body {
-  background-image: url('../../assets/images/cat.jpeg');
-  background-color: #111;
-  font-family: sans-serif;
+  background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: "Ubuntu", sans-serif;
 }

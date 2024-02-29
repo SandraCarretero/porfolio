@@ -2,3 +2,6 @@
 @use 'base/initial-reset.scss';
 @use 'config/variables.scss';
 @use 'blocks/body.scss';
+@use 'blocks/background.scss';
+@use 'mixins/hover.scss';
+@use 'mixins/responsive.scss';

@@ -1,0 +1,19 @@
+
+.background {
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(400px at center, #ffffff07, transparent 80%);
+    pointer-events: none; 
+    z-index: -1; 
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width:1024px) {
+	.background{
+		display: block;
+	}
+}
